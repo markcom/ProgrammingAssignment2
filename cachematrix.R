@@ -1,5 +1,5 @@
 ## Coursera - R Programming: Programming Assignment 2
-## use if  <<- operator
+## use of  <<- operator
 
 # makeCacheMatrix function is used to create and store a matrix
 # and its inverse
