@@ -68,17 +68,17 @@ cacheSolve <- function(x, ...) {
 }
 
 ######################################################################
-# Usage:
+# Usage: (Execute in this order)
 #       a <- makeCacheMatrix()  # Creates a cachematrix variable
 #       a$setTM()               # Sets the initial matrix. set(matrix)
 #                               # or setRandom() can also be used
 #       a$get()                 # Shows the initial matrix
 #       a$getInverse()          # Returns NULL as no inverse exists
-#       cacheSolve(a)           # Shows (and sets) the inverse of the
-#                               # matrix
+#       cacheSolve(a)           # Computes (and sets) the inverse of 
+#                               # the matrix
+#       cacheSolve(a)           # Returns a message "getting cached
+#                               # data" + the inverse
 #       a$getInverse()          # Returns the inverse matrix
-#       a$getInverse()          # Returns "getting cached data"
-#                               # + the inverse matrix
 #       a$get() %*% a$getInverse()
 #                               # Multiplies the matrixes - returns
 #                               # an identity matrix
